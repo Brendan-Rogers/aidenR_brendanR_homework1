@@ -70,10 +70,9 @@ li{
 }
 
 .subHead {
-    font-size: 2em;
-    margin-bottom: -20px;
-  
-  }
+  font-size: 2em;
+  margin-bottom: -20px;
+}
   
 .bio, .subHead, .piece h3 {
   margin-left: 20px;
@@ -83,8 +82,12 @@ li{
 .greyout {
   color: grey;
   font-size: 1.25em;
-  margin-left: 20px; 
+  margin-left: 20px;
 }
+
+
+
+
 .piece {
   display: flex;
   flex-direction: column;
