@@ -98,6 +98,296 @@ function reassignImages(x){
   }
 }
 
+function openLightbox1() {
+  var pswpElement = document.querySelectorAll('.pswp')[0];
+
+  // build items array
+  var items = [
+    {
+        src: './images/lightbox/brendan_lightbox1.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/brendan_lightbox2.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/brendan_lightbox3.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox1.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox2.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox3.png',
+        w: 600,
+        h: 400
+    }
+  ];
+
+  // define options (if needed)
+  var options = {
+    // optionName: 'option value'
+    // for example:
+    index: 0 // go to Argument's side
+  };
+
+  // Initializes and opens PhotoSwipe
+  var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+  gallery.init();
+}
+function openLightbox2() {
+  var pswpElement = document.querySelectorAll('.pswp')[0];
+
+  // build items array
+  var items = [
+    {
+        src: './images/lightbox/brendan_lightbox1.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/brendan_lightbox2.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/brendan_lightbox3.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox1.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox2.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox3.png',
+        w: 600,
+        h: 400
+    }
+  ];
+
+  // define options (if needed)
+  var options = {
+    // optionName: 'option value'
+    // for example:
+    index: 1 // go to Argument's side
+  };
+
+  // Initializes and opens PhotoSwipe
+  var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+  gallery.init();
+}
+function openLightbox3() {
+  var pswpElement = document.querySelectorAll('.pswp')[0];
+
+  // build items array
+  var items = [
+    {
+        src: './images/lightbox/brendan_lightbox1.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/brendan_lightbox2.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/brendan_lightbox3.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox1.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox2.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox3.png',
+        w: 600,
+        h: 400
+    }
+  ];
+
+  // define options (if needed)
+  var options = {
+    // optionName: 'option value'
+    // for example:
+    index: 2 // go to Argument's side
+  };
+
+  // Initializes and opens PhotoSwipe
+  var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+  gallery.init();
+}
+function openLightbox4() {
+  var pswpElement = document.querySelectorAll('.pswp')[0];
+
+  // build items array
+  var items = [
+    {
+        src: './images/lightbox/brendan_lightbox1.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/brendan_lightbox2.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/brendan_lightbox3.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox1.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox2.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox3.png',
+        w: 600,
+        h: 400
+    }
+  ];
+
+  // define options (if needed)
+  var options = {
+    // optionName: 'option value'
+    // for example:
+    index: 3 // go to Argument's side
+  };
+
+  // Initializes and opens PhotoSwipe
+  var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+  gallery.init();
+}
+function openLightbox5() {
+  var pswpElement = document.querySelectorAll('.pswp')[0];
+
+  // build items array
+  var items = [
+    {
+        src: './images/lightbox/brendan_lightbox1.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/brendan_lightbox2.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/brendan_lightbox3.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox1.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox2.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox3.png',
+        w: 600,
+        h: 400
+    }
+  ];
+
+  // define options (if needed)
+  var options = {
+    // optionName: 'option value'
+    // for example:
+    index: 4 // go to Argument's side
+  };
+
+  // Initializes and opens PhotoSwipe
+  var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+  gallery.init();
+}
+function openLightbox6() {
+  var pswpElement = document.querySelectorAll('.pswp')[0];
+
+  // build items array
+  var items = [
+    {
+        src: './images/lightbox/brendan_lightbox1.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/brendan_lightbox2.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/brendan_lightbox3.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox1.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox2.png',
+        w: 600,
+        h: 400
+    },
+    {
+        src: './images/lightbox/aiden_lightbox3.png',
+        w: 600,
+        h: 400
+    }
+  ];
+
+  // define options (if needed)
+  var options = {
+    // optionName: 'option value'
+    // for example:
+    index: 5 // go to Argument's side
+  };
+
+  // Initializes and opens PhotoSwipe
+  var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+  gallery.init();
+}
+
+
 
 // call FUNCTIONS
 reassignImages(desktopQ);
@@ -105,6 +395,20 @@ getData();
 
 // EVENT HANDLING
 desktopQ.addListener(reassignImages);
+document.getElementById('imgCeltic').addEventListener("click", openLightbox1);
+document.getElementById('imgMaritimes').addEventListener("click", openLightbox2);
+document.getElementById('imgVolume').addEventListener("click", openLightbox3);
+document.getElementById('imgBuilding').addEventListener("click", openLightbox4);
+document.getElementById('imgMan').addEventListener("click", openLightbox5);
+document.getElementById('imgBall').addEventListener("click", openLightbox6);
+
+
+
+
+
+
+
+
 
 })();
 

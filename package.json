@@ -28,6 +28,8 @@
   },
   "dependencies": {
     "flexbox": "0.0.3",
+    "lightbox2": "^2.10.0",
+    "photoswipe": "^4.1.2",
     "sass": "^1.14.1"
   }
 }
