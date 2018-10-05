@@ -1,7 +1,29 @@
+(() => { // SELF EXECUTING FUNCTION
+
 const NAV_OPENED_CLASS = "change";
 const NAV_CLOSED_CLASS = "changeBack";
+// FIRST MEMBER querys
+const name1 = document.querySelector('#name1');
+const bio1 = document.querySelector('#bio1');
+const position1 = document.querySelector("#position1");
+// SECOND MEMBER querys
+const name2 = document.querySelector('#name2');
+const bio2 = document.querySelector('#bio2');
+const position2 = document.querySelector("#position2");
 
 let desktopQ = window.matchMedia("(min-width: 768px)");
+
+function setPort1Info(data) {
+  name1.textContent = data.memberName;
+  bio1.textContent = data.memberBio;
+  position1.textContent = "//" + data.memberPosition;
+}
+
+function setPort2Info(data) {
+  name2.textContent = data.memberName;
+  bio2.textContent = data.memberBio;
+  position2.textContent = "//" + data.memberPosition; 
+}
 
 window.onload = function() {
   const navBtn = document.getElementById("nav-btn");
@@ -34,6 +56,17 @@ window.onload = function() {
   }
 };
 
+function getData() {
+  fetch('admin/connect.php')
+  .then(res => res.json())
+  .then(data => {
+    setPort1Info(data[0]);
+    setPort2Info(data[1]);
+  })
+  .catch(function(error) {
+    console.log(error);
+  });
+}
 
 function reassignImages(x){
   if (x.matches) { // it is DESKTOP SIZE
@@ -68,11 +101,10 @@ function reassignImages(x){
 
 // call FUNCTIONS
 reassignImages(desktopQ);
+getData();
 
 // EVENT HANDLING
 desktopQ.addListener(reassignImages);
 
-
-
-
+})();
 
