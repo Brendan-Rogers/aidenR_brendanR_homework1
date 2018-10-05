@@ -106,5 +106,6 @@ getData();
 // EVENT HANDLING
 desktopQ.addListener(reassignImages);
 
+
 })();
 
