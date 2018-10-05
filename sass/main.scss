@@ -38,7 +38,7 @@ li{
   display: block;
   margin: 0;
   margin: 0;
-  letter-spacing: 2px;
+  letter-spacing: 20px;
   font-size: 48px;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
@@ -46,7 +46,10 @@ li{
 .hide {
   display: none;
 }
-     
+.desktopNavList
+{
+  display: none;
+}
 
 #imgHead
 {
@@ -67,6 +70,8 @@ li{
   font-size: 0.875rem;
   text-transform: uppercase;
   line-height: 1.2;
+  margin-bottom: 200px;
+  text-align: center;
 }
 
 .subHead {
@@ -77,6 +82,12 @@ li{
 .bio, .subHead, .piece h3 {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.bio
+{
+  text-align: center;
+  line-height: 30px;
 }
 
 .greyout {
@@ -92,6 +103,9 @@ li{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: 0f0f0f;
+ margin: 15px;
+ margin-bottom: 50px;
 }
 .piece img {
   width: 80%;
@@ -108,6 +122,7 @@ li{
 .pieceHead h3 {
   margin-bottom: 0px;
   margin-top: 0px;
+  text-align: center;
 }
 .pieceHead h4 {
   margin-top: 10px;
@@ -122,13 +137,19 @@ li{
   margin-bottom: 30px;
 }
 
+.btnView:hover
+{
+  color: yellow;
+  cursor: pointer;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
 .homeLayout {
   display: flex;
   flex-direction: column;
 }
-.studentPortfolio {
-  text-align: center;
-}
+
 .fixThis {
   height: 0em;
 }
@@ -147,11 +168,12 @@ li{
   width: 100%;
   margin-top: 1.2em;
   background-color: #888686;
+  border-radius: 4px;
 }
 .inputZone input::placeholder {
   color: $navFont;
   font-family: tw, 'Times New Roman', Times, serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 #comments {
   padding-bottom: 189px;
@@ -172,6 +194,7 @@ li{
 }
 .copyright {
   text-align: center;
+  font-size: .5em;
 }
 
 
@@ -206,13 +229,15 @@ li{
   .piece {
     width: 25%;
     height: auto;
+    background-color:black;
+ margin: 0px;
   }
   .piece h3 {
     font-size: 1em;
   }
-  // .btnView {
-  //   justify-self: flex-end;
-  // }
+   .btnView {
+    font-size: 1em;
+   }
   #imgHead {
     width: 90%;
     z-index: 0;
@@ -239,6 +264,13 @@ li{
     color: $navFont;
     font-family: tw, 'Times New Roman', Times, serif;
   }
+  .desktopNavList a:hover
+  {
+    color: goldenrod;
+    transition-duration: 1s;
+    cursor: pointer;
+  }
+
   #desktopNav {
     background-color: rgba(0, 0, 0, 0.65);
     padding-top: 0.1em;
